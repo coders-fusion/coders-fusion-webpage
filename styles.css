@@ -31,6 +31,8 @@ div {
   color: var(--muted);
 }
 
+/* 1. Home Page */
+
 /* Navbar */
 
 nav {
@@ -43,7 +45,6 @@ nav {
   padding: 24px 8px 0px;
   width: 100%;
   top: -20px;
-  /* background-color: var(--black) / 0.5; */
   background-color: rgba(35, 35, 35, 0.2);
   backdrop-filter: blur(6px);
 }
@@ -55,7 +56,6 @@ nav .navbar {
   gap: 64px;
   padding: 0px 32px;
   width: 100%;
-
   min-height: 80px;
 }
 
@@ -71,17 +71,11 @@ nav .navbar {
 
 .navbar a:hover {
   cursor: pointer;
-  /* background-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.23)
-  ); */
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.5),
     rgba(255, 255, 255, 0.4)
   );
-  animation: none;
   border-radius: 16px;
   border-color: var(--neon);
   color: var(--white);
@@ -154,7 +148,7 @@ header .page-header {
   font-weight: 600;
 }
 
-/*  Navigate */
+/*  Navigate Card */
 .navigate-card {
   display: flex;
   flex-direction: column;
@@ -180,6 +174,7 @@ header .page-header {
   position: relative;
   width: 484px;
   height: 420px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
 }
 
 .navigate-card a {
@@ -206,6 +201,7 @@ header .page-header {
   object-fit: cover;
   width: 484px;
   height: 420px;
+  border-radius: 8%;
 }
 
 .card-long img {
@@ -218,7 +214,7 @@ header .page-header {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: -16%;
+  bottom: -18%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -368,7 +364,6 @@ header .page-header {
   width: 1339px;
   top: 0;
   left: 0;
-  font-family: 'Poppins-Bold', Helvetica;
   font-weight: 400;
   color: #c7c7c7;
   font-size: 40px;
@@ -401,7 +396,6 @@ header .page-header {
   height: 410px;
   top: 0;
   left: 0;
-  font-family: 'Poppins-Bold', Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 70px;
@@ -698,7 +692,6 @@ table tbody .activity-photo img {
   margin: 0 auto;
   padding: 64px 8px;
   gap: 24px;
-  /* width: 1008px; */
   max-width: 3120px;
   min-height: 486px;
 
@@ -825,7 +818,6 @@ main.survey {
   margin: 0 auto;
   padding: 64px 8px;
   gap: 24px;
-  /* width: 1008px; */
   max-width: 3120px;
   min-height: 486px;
   text-align: center;
