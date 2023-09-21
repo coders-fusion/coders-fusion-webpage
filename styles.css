@@ -204,6 +204,8 @@ header .page-header {
 
 .navigate-card img {
   object-fit: cover;
+  width: 484px;
+  height: 420px;
 }
 
 .card-long img {
